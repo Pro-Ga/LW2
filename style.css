@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+.header {
+    height: 745px;
+    background-image: url("images/GotoSouthKorea1.png");
+    background-color: rgba(63, 59, 59, 0.65);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+}
+
+.sqr {
+    margin-top: 0;
+    height: 51px;
+    background-color: #BBA48B;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 14px;
+}
+
+.sqr-line {
+    padding-top: 13px;
+    padding-left: 11px;
+    display: flex;
+    align-items: center;
+    font-family: "Sarabun", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+}
+  
+.sqr-line img, .sqr-line p {
+    height: 22px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.sqr img {
+    width: 18px;
+    height: 18px;
+}
+
+.mail {
+    width: 20px;
+    height: 16px;
+}
+
+.sqr-line p {
+    color: #1A243F;
+}
+
+img.insta {
+    margin-right: 9.99px;
+}
+
+p.instaT {
+    margin-right: 53px;
+}
+
+img.phone {
+    margin-right: 16px;
+}
+
+p.phoneT {
+    margin-right: 33px;
+}
+
+img.mail {
+    margin-right: 15px;
+}
+
+.nav {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    z-index: 1;
+}
+
+.container {
+    margin-left: 745px;
+    margin-bottom: 92px;
+}
+
+.nav a {
+    margin-right: 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.kam {
+    color: #FFFFFF;
+    margin-left: 235px;
+    position: absolute;
+    width: 947px;
+    height: 94px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 59px;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: top;
+}
+
+.univ {
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-left: 308px;
+    position: absolute;
+    width: 948px;
+    height: 97px;
+    font-family: 'Elsie';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 92px;
+    text-align: center;
+}
+
+.texth {
+    position: absolute;
+    width: 1032px;
+    height: 144px;
+    left: 206px;
+    top: 379px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.texth p {
+    margin: 5px;
+}
+
+.btn {
+    margin-top: 471px;
+    margin-left: 675px;
+    z-index: 1;
+}
+
+.button {
+    background: rgba(236, 236, 236, 0.67);
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #020101;
+    filter: blur(2px);
+}
+
+.button:hover {
+    background: rgba(187, 164, 139, 0.44);
+    border: 1px solid #020101;
+    backdrop-filter: blur(2px);
+    transition: background 0.2s linear;
+}
+
+.container1 {
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 36px;
+    display: flex;
+}
+
+.sq1 {
+    background-color: #BBA48B;
+    width: 340px;
+    height: 340px;
+}
+
+.sq2 {
+    margin-left: 24px;
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 340px;
+}
+
+.sq3 {
+    background-color: #173D62;
+    margin-left: 24px;
+    width: 340px;
+    height: 340px;
+}
+
+img.VEC1 {
+    margin-top: 32px;
+    margin-left: 22px;
+    width: 37.5px;
+    height: 37.5px;
+}
+
+img.home1 {
+    margin-top: 34px;
+    margin-left: 21px;
+    width: 41.25px;
+    height: 39px;
+}
+
+img.box1 {
+    margin-top: 35px;
+    margin-left: 29px;
+    width: 36px;
+    height: 36.66px;
+}
+
+.ht1 {
+    color: #FFFFFF;
+    margin-left: 23px;
+    font-family: 'Gentium Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.ht2 {
+    color: #2E3A59;
+    margin-left: 16px;
+    font-family: 'Gentium Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.ht3 {
+    color: #FFFFFF;
+    margin-left: 23px;
+    font-family: 'Gentium Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.te1 {
+    margin-left: 2px;
+    color: rgba(255, 255, 255, 0.91);
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.te2 {
+    margin-left: 8px;
+    color: rgba(0, 0, 0, 0.59);
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.te3 {
+    margin-left: 23px;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.67);
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.lm1 {
+    margin-left: 249px;
+    margin-top: 76px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.lm2 {
+    margin-left: 240px;
+    margin-top: 76px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.lm3 {
+    margin-left: 255px;
+    margin-top: 76px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
